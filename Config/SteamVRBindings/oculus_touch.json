@@ -64,12 +64,34 @@
 				},
 				{
 					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
 							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Option"
 						}
 					}
 				},
@@ -129,5 +151,5 @@
 			]
 		}
 	},
-	"description": "Virtual Reality BP Game Template-15228867"
+	"description": "Virtual Reality BP Game Template-15973114"
 }

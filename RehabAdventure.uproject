@@ -19,6 +19,10 @@
 		{
 			"Name": "Water",
 			"Enabled": true
+		},
+		{
+			"Name": "FbxAutomationTestBuilder",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

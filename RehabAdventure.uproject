@@ -23,6 +23,14 @@
 		{
 			"Name": "FbxAutomationTestBuilder",
 			"Enabled": true
+		},
+		{
+			"Name": "AlembicHairImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
